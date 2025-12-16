@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # -------------------- SAYFA AYAR --------------------
 st.set_page_config(
-    page_title="Instagram Public Dashboard",
+    page_title="InStatistics-Instagram İstatistik Sayfası",
     layout="wide"
 )
 
@@ -23,7 +23,7 @@ plt.rcParams.update({
 
 # -------------------- BAŞLIK --------------------
 st.title("📊 Instagram Public İstatistik Dashboard")
-st.caption("CSV tabanlı • Çok hızlı • Ban riski yok")
+st.caption("CSV tabanlı • Çok hızlı • Doğru sonuçlar")
 
 # -------------------- DOSYA YÜKLE --------------------
 uploaded_file = st.file_uploader(
